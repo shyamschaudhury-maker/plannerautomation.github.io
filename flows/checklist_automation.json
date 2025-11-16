@@ -1,0 +1,10 @@
+{
+  "name": "Planner Checklist Automation",
+  "description": "Automatically adds checklist items to tasks based on Excel input.",
+  "steps": [
+    "Trigger when a new task is created",
+    "Read checklist from Excel template",
+    "Add each checklist item in loop"
+  ],
+  "version": "1.0"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Planner Task Creation Flow",
+  "description": "Creates Planner tasks automatically from an Excel list stored in OneDrive or SharePoint.",
+  "actions": [
+    "Read Excel rows",
+    "Loop through items",
+    "Create task in Microsoft Planner",
+    "Assign user",
+    "Set due date"
+  ],
+  "version": "1.0"
+}

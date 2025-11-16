@@ -1,0 +1,10 @@
+{
+  "name": "Planner Reminders Flow",
+  "description": "Sends reminders for upcoming tasks via email or Teams.",
+  "logic": {
+    "check": "Due date is within next 24 hours",
+    "send_notification": true
+  },
+  "channels": ["Email", "Teams"],
+  "version": "1.0"
+}

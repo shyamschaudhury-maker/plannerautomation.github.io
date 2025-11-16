@@ -1,0 +1,10 @@
+{
+  "name": "Planner Bulk Update Flow",
+  "description": "Updates multiple Planner tasks (dates, assignments, progress) from Excel.",
+  "steps": [
+    "Read all rows from Excel",
+    "Match task ID",
+    "Update fields using Update Task action"
+  ],
+  "version": "1.0"
+}
